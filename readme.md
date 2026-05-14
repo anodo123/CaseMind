@@ -45,10 +45,36 @@ It includes:
 
 The legal search API currently returns:
 
-```json
+
 {
   "categories": [...],
   "docs": [...],
   "found": "1 - 10 of 7145",
   "encodedformInput": "fromdate:23-04-2026 todate:13-05-2026"
 }
+
+
+# Level 2 Architecture
+
+The following diagram represents the structure of the detailed judgment retrieval pipeline.
+
+After retrieving document identifiers from the Search API, the system calls the `GetDocumentAPI` to fetch a fully structured judgment.
+
+The extracted judgment intelligence currently includes:
+
+- Case metadata and indexing
+- Full judgment text
+- Paragraph semantic labels
+- Legal citations
+- Statutory references
+- Party arguments
+- Final decision / operative order
+
+This structured representation is intended to support:
+- Semantic legal retrieval
+- Metadata-aware chunking
+- Citation graph analysis
+- Legal RAG pipelines
+- Downstream legal AI workflows
+
+![Level 2 Architecture](docs/images/Level2Architecture.jpg)
