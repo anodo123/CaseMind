@@ -1,0 +1,334 @@
+{
+  "categories": [
+    [
+      "Document Types",
+      [
+        {
+          "value": "All",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026",
+          "selected": true
+        },
+        {
+          "value": "Laws",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:laws"
+        },
+        {
+          "value": "Judgments",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:judgments"
+        },
+        {
+          "value": "Tribunals",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:tribunals"
+        },
+        {
+          "value": "Highcourts & Supremecourt",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:supremecourt,scorders,highcourts"
+        }
+      ]
+    ],
+    [
+      "Courts and Laws",
+      [
+        {
+          "value": "Bombay High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:bombay",
+          "selected": false
+        },
+        {
+          "value": "Patna High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:patna",
+          "selected": false
+        },
+        {
+          "value": "Allahabad High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:allahabad",
+          "selected": false
+        },
+        {
+          "value": "Delhi High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:delhi",
+          "selected": false
+        },
+        {
+          "value": "Gujarat High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:gujarat",
+          "selected": false
+        },
+        {
+          "value": "Karnataka High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:karnataka",
+          "selected": false
+        },
+        {
+          "value": "Jharkhand High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:jharkhand",
+          "selected": false
+        },
+        {
+          "value": "Supreme Court of India",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:supremecourt",
+          "selected": false
+        },
+        {
+          "value": "Himachal Pradesh High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:himachal_pradesh",
+          "selected": false
+        },
+        {
+          "value": "Chattisgarh High Court",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+doctypes:chattisgarh",
+          "selected": false
+        }
+      ]
+    ],
+    [
+      "Authors",
+      [
+        {
+          "value": "Ravindra V Ghuge",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+authorid:r-v-ghuge"
+        },
+        {
+          "value": "Harish Kumar",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+authorid:h-kumar"
+        },
+        {
+          "value": "M S Jawalkar",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+authorid:m-s-jawalkar"
+        },
+        {
+          "value": "G S Kulkarni",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+authorid:g-s-kulkarni"
+        },
+        {
+          "value": "Rajesh Shankar",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+authorid:r-shankar"
+        }
+      ]
+    ],
+    [
+      "Bench",
+      [
+        {
+          "value": "Ravindra V Ghuge",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:r-v-ghuge"
+        },
+        {
+          "value": "Harish Kumar",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:h-kumar"
+        },
+        {
+          "value": "M S Jawalkar",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:m-s-jawalkar"
+        },
+        {
+          "value": "G S Kulkarni",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:g-s-kulkarni"
+        },
+        {
+          "value": "Rajesh Shankar",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:r-shankar"
+        },
+        {
+          "value": "Vivek Kumar Singh",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:v-k-singh"
+        },
+        {
+          "value": "Ramesh Sinha",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:r-sinha"
+        },
+        {
+          "value": "Alok Kumar Verma",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:a-k-verma"
+        },
+        {
+          "value": "Bharati Dangre",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:b-dangre"
+        },
+        {
+          "value": "Deepak Roshan",
+          "formInput": "fromdate%3A%2023-4-2026%20todate%3A%2013-5-2026+benchid:d-roshan"
+        }
+      ]
+    ],
+    [
+      "Years",
+      [
+        {
+          "value": "2026",
+          "formInput": "+year:2026"
+        }
+      ]
+    ]
+  ],
+  "docs": [
+    {
+      "tid": 154470529,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-05-08",
+      "authorid": null,
+      "bench": null,
+      "title": "Manjula vs D.A. Srinivas on 8 May, 2026",
+      "numcites": 218,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 398869,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    },
+    {
+      "tid": 84544082,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-04-29",
+      "authorid": 302,
+      "bench": [
+        302
+      ],
+      "title": "Ashwini Kumar Upadhyay vs Union Of India on 29 April, 2026",
+      "numcites": 101,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 235794,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "V Nath",
+      "authorEncoded": "v-nath"
+    },
+    {
+      "tid": 157668151,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-04-29",
+      "authorid": null,
+      "bench": null,
+      "title": "Kailash Chandra Kapri vs State Of Uttar Pradesh on 29 April, 2026",
+      "numcites": 74,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 129312,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    },
+    {
+      "tid": 71987387,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-05-08",
+      "authorid": 539,
+      "bench": [
+        539
+      ],
+      "title": "Indian Railways vs West Bengal State Electricity ... on 8 May, 2026",
+      "numcites": 57,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 117576,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "D Datta",
+      "authorEncoded": "d-datta"
+    },
+    {
+      "tid": 6398973,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-05-04",
+      "authorid": 1640,
+      "bench": [
+        1640
+      ],
+      "title": "Kumud Lall vs Suresh Chandra Roy (Dead) Thr Lrs on 4 May, 2026",
+      "numcites": 40,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 117056,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "J K Maheshwari",
+      "authorEncoded": "j-k-maheshwari"
+    },
+    {
+      "tid": 192769767,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-04-24",
+      "authorid": null,
+      "bench": null,
+      "title": "Home Care Retail Marts Pvt. Ltd. Through ... vs Haresh N. Sanghavi on 24 April, 2026",
+      "numcites": 44,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 63703,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    },
+    {
+      "tid": 74158823,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-05-12",
+      "authorid": null,
+      "bench": null,
+      "title": "Sanand Properties P.Ltd vs Jt.Commr.Of I.T . Range 6 And Ors on 12 May, 2026",
+      "numcites": 30,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 168075,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    },
+    {
+      "tid": 135271857,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-05-07",
+      "authorid": 159,
+      "bench": [
+        159
+      ],
+      "title": "Sunil Kumar Yadav vs The State Of Jharkhand on 7 May, 2026",
+      "numcites": 26,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 87104,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "P Mithal",
+      "authorEncoded": "p-mithal"
+    },
+    {
+      "tid": 73303002,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-04-27",
+      "authorid": null,
+      "bench": null,
+      "title": "Anand Jakkappa Pujari @ Gaddadar vs The State Of Karnataka on 27 April, 2026",
+      "numcites": 27,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 126084,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    },
+    {
+      "tid": 110990465,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2026-05-05",
+      "authorid": null,
+      "bench": null,
+      "title": "Alpha Corp Development Private Limited vs Greater Noida Industrial Development ... on 5 May, 2026",
+      "numcites": 21,
+      "numcitedby": 0,
+      "headline": "",
+      "docsize": 98374,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    }
+  ],
+  "found": "1 - 10 of 7145",
+  "encodedformInput": "fromdate%3A23-04-2026%20todate%3A13-05-2026"
+}

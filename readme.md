@@ -78,3 +78,27 @@ This structured representation is intended to support:
 - Downstream legal AI workflows
 
 ![Level 2 Architecture](docs/images/Level2Architecture.jpg)
+
+
+### Implemented ORM Models
+
+#### JudgmentMetadata
+
+Initial production metadata model for legal judgment indexing and retrieval.
+
+The model currently captures:
+
+- Core judgment identity and source metadata
+- Document classification and publication information
+- Search and retrieval metadata returned by the API
+- Citation statistics and document characteristics
+- Source payload preservation (`raw_json`)
+- Audit and ingestion timestamps
+
+This model forms the foundation for:
+
+- Metadata-driven legal search
+- Retrieval filtering and ranking
+- Future hybrid search pipelines
+- Citation graph expansion
+- Downstream Legal RAG workflows
