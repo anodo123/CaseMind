@@ -1,6 +1,5 @@
 from database.base import Base
 from sqlalchemy.sql import func
-
 from sqlalchemy import (
     Column,
     Integer,
@@ -10,9 +9,11 @@ from sqlalchemy import (
     Date,
     Boolean,
     JSON,
-    TIMESTAMP
+    TIMESTAMP,
+    ForeignKey
 )
 
+from sqlalchemy.orm import relationship
 
 class JudgmentMetadata(Base):
 
@@ -37,6 +38,13 @@ class JudgmentMetadata(Base):
 
     doctype = Column(
         Integer
+    )
+    
+    court_id = Column(
+        Integer,
+        ForeignKey("courts.id"),
+        nullable=True,
+        index=True
     )
 
     docsource = Column(
@@ -105,4 +113,9 @@ class JudgmentMetadata(Base):
         TIMESTAMP(timezone=True),
         server_default=func.now(),
         onupdate=func.now()
+    )
+    
+    court = relationship(
+        "Court",
+        back_populates="judgments"
     )

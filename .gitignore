@@ -33,3 +33,6 @@ data/processed/*
 dist/
 build/
 *.egg-info/
+
+#raw notebooks
+scratchpad.ipynb

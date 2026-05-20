@@ -23,8 +23,10 @@ CaseMind is a Legal AI system designed to answer queries on Indian Supreme Court
 - Search response decomposition completed
 - Initial system architecture planning in progress
 - Metadata structure mapping completed
-
----
+- Dockerized PostgreSQL environment configured
+- SQLAlchemy ORM setup completed
+- Alembic migration workflow configured
+- Initial metadata database schema implementation in progress
 
 # Level 1 Architecture
 
@@ -82,23 +84,70 @@ This structured representation is intended to support:
 
 ### Implemented ORM Models
 
-#### JudgmentMetadata
+## Implemented ORM Models
+
+### JudgmentMetadata
 
 Initial production metadata model for legal judgment indexing and retrieval.
 
-The model currently captures:
+Currently captures:
 
-- Core judgment identity and source metadata
-- Document classification and publication information
-- Search and retrieval metadata returned by the API
-- Citation statistics and document characteristics
-- Source payload preservation (`raw_json`)
-- Audit and ingestion timestamps
+- Judgment identity and source metadata
+- Publication and classification metadata
+- Search API retrieval fields
+- Citation statistics
+- Document characteristics
+- Raw payload preservation
+- Audit timestamps
 
-This model forms the foundation for:
+Supports:
 
-- Metadata-driven legal search
-- Retrieval filtering and ranking
-- Future hybrid search pipelines
-- Citation graph expansion
-- Downstream Legal RAG workflows
+- Metadata-driven retrieval
+- Filtering and ranking
+- Future hybrid search
+- Citation expansion
+- Legal RAG workflows
+
+---
+
+### Court
+
+Normalized legal court reference entity.
+
+Currently captures:
+
+- Canonical court identity
+- Court classification
+- Jurisdiction metadata
+- Geographic metadata
+- Audit timestamps
+
+Supports:
+
+- Court-based retrieval filtering
+- Metadata normalization
+- Future multi-court expansion
+- Legal analytics
+- Domain graph relationships
+
+Relationship:
+Court (1) ------ (N) JudgmentMetadata
+
+
+## Metadata Database Layer
+
+CaseMind uses a normalized PostgreSQL metadata layer for structured legal intelligence storage.
+
+Current stack:
+
+- PostgreSQL
+- SQLAlchemy ORM
+- Alembic migrations
+
+Current design philosophy:
+
+- Normalize reusable legal entities
+- Avoid overloading JSON fields
+- Preserve queryability and indexing capability
+- Support future legal graph expansion
+- Separate metadata layer from future chunk/vector layers
